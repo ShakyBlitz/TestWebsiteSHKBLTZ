@@ -1,0 +1,100 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.video-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.video-thumbnail {
+    width: 300px;   
+    height: 200px;  
+    object-fit: cover;  
+    margin-bottom: 10px; 
+    border: 2px solid #444; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.video-thumbnail:hover {
+    transform: scale(1.05); 
+}
+
+
+.video-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: antiquewhite;
+    margin-top: 5px; 
+    text-decoration: underline;
+}
+
+header {
+    padding: 60px;
+    background-color: rgb(25, 25, 34);
+    
+}
+
+.btna {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 15px 35px;
+    color: antiquewhite;
+    background-color: rgb(48, 48, 48);
+    border: 2px solid;
+    border-color: rgb(32, 39, 46);
+    transition: all 0.3s;
+}
+
+.btna:hover {
+    transform: translateY(-2px);
+    background-color: antiquewhite;
+    border-color: gray;
+    color: black;
+    text-decoration: underline;
+}
+
+.reference {
+    display: flex;
+    margin: 25px;
+}
+
+.CPUEX-div,
+.GPUEX-div,
+.RAMEX,
+.MBEX {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: antiquewhite;
+
+    height: 200px;
+    width: 500px;
+}
+
+.Refer {
+    text-align: center;
+    position: relative;
+    top: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: antiquewhite;
+    text-decoration: underline;
+}
